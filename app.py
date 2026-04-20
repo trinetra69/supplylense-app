@@ -263,7 +263,7 @@ with st.sidebar:
         st.progress(coherence, text=f"{coherence*100:.0f}% — Bottom-Up")
         
     else:
-        st.warning("⚠️ Pipeline not yet run. Please run `python run_pipeline.py` first.")
+        # st.warning("Pipeline not yet run...")
 
 
 # ──────────────────────────────────────────────
